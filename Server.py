@@ -31,6 +31,8 @@ class Server:
         else:
             print("Check the server - Unsuccessfull ping response for ", self.server_ip)
             print(f.read())
+            
+        return     
         
         
         
