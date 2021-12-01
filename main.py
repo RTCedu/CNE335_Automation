@@ -13,3 +13,5 @@ if __name__ == '__main__':
     # TODO - Call Ping method and print the results
     #The IP address is passed as a string to the Server class in the server.py module
     ec2Server = Server.Server("52.41.99.1")
+    print(server.ping())
+    server.SSh_and_updated()
